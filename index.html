@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Driftline Studios</title>
+<meta name="description" content="Driftline Studios produces the YouTube channels Edge &amp; Ledger and The Receipts Room.">
+<style>
+  :root { --ink:#12161c; --muted:#5b6472; --line:#e3e6ea; --bg:#fbfbfc; --card:#fff; --accent:#8a6d3b; }
+  @media (prefers-color-scheme: dark) {
+    :root { --ink:#e8eaed; --muted:#9aa3b0; --line:#2a2f37; --bg:#14171c; --card:#1a1e25; --accent:#c4a15a; }
+  }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink);
+    font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif; }
+  main { max-width:44rem; margin:0 auto; padding:4rem 1.25rem 5rem; }
+  h1 { font-size:2.1rem; letter-spacing:-.025em; margin:0 0 .4rem; }
+  .sub { color:var(--muted); margin:0 0 3rem; font-size:1.05rem; }
+  h2 { font-size:1.05rem; margin:0 0 1rem; letter-spacing:.06em; text-transform:uppercase;
+       color:var(--muted); font-weight:600; }
+  .cards { display:grid; gap:1rem; grid-template-columns:repeat(auto-fit,minmax(15rem,1fr)); }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:.65rem; padding:1.25rem; }
+  .card h3 { margin:0 0 .4rem; font-size:1.1rem; letter-spacing:-.01em; }
+  .card p { margin:0; color:var(--muted); font-size:.94rem; }
+  section { margin-bottom:3rem; }
+  a { color:var(--accent); }
+  footer { padding-top:1.5rem; border-top:1px solid var(--line); color:var(--muted); font-size:.9rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Driftline Studios</h1>
+  <p class="sub">An independent producer of explanatory and narrative video.</p>
+
+  <section>
+    <h2>Channels</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Edge &amp; Ledger</h3>
+        <p>Explainers on markets and economics — what moved, and the mechanism behind it.
+        Educational only; never investment advice.</p>
+      </div>
+      <div class="card">
+        <h3>The Receipts Room</h3>
+        <p>Original fiction. Character-driven stories of trust and betrayal, clearly
+        labelled as fiction.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Driftline Studios Uploader</h2>
+    <p>Our internal publishing tool. It uploads videos we produce to the channels we own, using
+    YouTube API Services. It is a private, single-operator tool: it is not offered to the public,
+    has no user accounts, and accesses no viewer or audience data. It requests one permission
+    scope, <code>youtube.upload</code>, which permits uploading a video and setting its thumbnail
+    and nothing else.</p>
+    <p>How it handles data is set out in our <a href="./privacy.html">Privacy Policy</a>.</p>
+  </section>
+
+  <section>
+    <h2>Production and AI disclosure</h2>
+    <p>Our videos use synthesised narration and are assembled with automated tooling. Editorial
+    decisions, research, and review are made by a person. Where a video's content requires
+    disclosure of synthetic media under YouTube's policies, that disclosure is applied.</p>
+  </section>
+
+  <footer>
+    Contact: <a href="mailto:thedriftlinestudios@gmail.com">thedriftlinestudios@gmail.com</a>
+    &middot; <a href="./privacy.html">Privacy Policy</a>
+  </footer>
+</main>
+</body>
+</html>
